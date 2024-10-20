@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+*::selection {
+  background-color: rgb(101, 101, 20);
+  color: khaki;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(38, 36, 36, 0.804);
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+
+  overflow: auto;
+  background-image: url("images/pexels-enginakyurt-1435752.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95% 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.id1 {
+  font-size: 2.3em;
+  font-weight: 500;
+
+}
+
+.id2 {
+  font-size: 2em;
+}
+
+#green {
+  margin-top: 40px;
+  margin-left: 380px;
+  border: 5px solid seagreen;
+
+  background-color: rgba(34, 30, 30, 0.655);
+  color: azure;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 50%;
+  height: 70px;
+  width: 80px;
+  /* text-decoration: none; */
+}
+
+#green a {
+  color: white;
+  text-decoration: none;
+}
+
+#green a:hover {
+  color: rgb(209, 198, 96);
+}
