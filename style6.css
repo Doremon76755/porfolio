@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+*::selection {
+  background-color: rgb(101, 101, 20);
+  color: khaki;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.contact {
+  background-image: url("images/pexels-markusspiske-113338.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  height: 500px;
+  width: 400px;
+  border: 2px solid rgba(255, 255, 255, 0.751);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.347), rgba(128, 128, 128, 0.566));
+  border-radius: 20px;
+  color: rgba(62, 79, 46, 0.975);
+  box-shadow: 8px 8px rgba(39, 71, 71, 0.577);
+}
+
+input {
+  background-color: rgba(128, 128, 128, 0.301);
+  color: rgb(253, 191, 98);
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+button>a {
+  text-decoration: none;
+
+}
+
+button {
+  border-radius: 30px;
+  padding: 17px;
+  margin-left: 150px;
+  background-image: linear-gradient(234deg, rgba(231, 205, 73, 0.86), rgba(24, 102, 24, 0.488));
+  margin-top: 20px;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+/* input::placeholder:hover {
+  color: rgb(175, 193, 10);
+} */
+
+input>.soil {
+  padding: 15px 20px;
+}
+
+.yo {
+  margin-left: 70px;
+}
+
+.tea {
+  margin-top: 25px;
+  margin-left: 70px;
+}
